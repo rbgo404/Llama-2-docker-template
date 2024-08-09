@@ -2,7 +2,7 @@
 FROM ghcr.io/huggingface/text-generation-inference:latest
 
 # Set environment variables
-ENV MODEL_ID="meta-llama/Llama-2-7b-chat-hf"
+ENV MODEL_ID="google/gemma-2b"
 ENV NUM_SHARD=1
 ENV MAX_INPUT_LENGTH=2048
 ENV MAX_TOTAL_TOKENS=4096
